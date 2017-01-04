@@ -28,7 +28,6 @@ class AlbumList extends Component {
     const cnt = this.state.albums.length;
     return (
       <View>
-      {/* <Text>😄Album List..✌😽 😄 ({cnt})</Text> */}
         <ScrollView>
           {this.renderAlbums(this.state.albums)}
         </ScrollView>
